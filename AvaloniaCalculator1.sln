@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaCalculator1", "AvaloniaCalculator1.csproj", "{0414D19A-41C8-4BE7-82C1-82C1C20896AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaCalculator1.Desktop", "..\AvaloniaCalculator1.Desktop\AvaloniaCalculator1.Desktop.csproj", "{8B8ADD31-9ABF-42EC-9D78-21E887510C0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{B6BA6BB0-7529-4AD4-993A-9CAB51D4A264}"
+	ProjectSection(SolutionItems) = preProject
+		Views\Class1.cs = Views\Class1.cs
+		Views\Operation.cs = Views\Operation.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0414D19A-41C8-4BE7-82C1-82C1C20896AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0414D19A-41C8-4BE7-82C1-82C1C20896AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0414D19A-41C8-4BE7-82C1-82C1C20896AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0414D19A-41C8-4BE7-82C1-82C1C20896AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B8ADD31-9ABF-42EC-9D78-21E887510C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8ADD31-9ABF-42EC-9D78-21E887510C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B8ADD31-9ABF-42EC-9D78-21E887510C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B8ADD31-9ABF-42EC-9D78-21E887510C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3584BD69-33C3-4A96-99CA-3F3F3C4911F5}
+	EndGlobalSection
+EndGlobal
